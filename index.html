@@ -1,0 +1,22 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hugo with web components</title> 
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./node_modules/theme-switcher-component/switch.js" defer></script>
+  </head>
+
+  <!-- Define an initial theme -->
+  <body>
+
+    <main>
+      <section>
+        <p>Components are not applications, they are just a part of the whole.</p>
+
+        <!-- The first element of the array themes defines the default theme -->
+        <theme-switcher themes='["dark", "light"]' verbose title="switch themes"></theme-switcher>
+      </section>
+    </main>
+
+  </body>
+</html>

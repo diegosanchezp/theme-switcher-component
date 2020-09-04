@@ -1,0 +1,53 @@
+/* Define a theme with variables */
+:root {
+  /* Light theme the default*/
+  --border-color: black;
+  --bg-color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-color);
+  color: var(--border-color);
+}
+
+/* Define the dark theme here, light theme is the default */
+
+body[data-theme="dark"]{
+  --border-color: white;
+  --bg-color: black;
+}
+
+main section {
+  /* Center the vertically the content */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  /*Thick border*/
+  --border-size: 15px;
+  margin: var(--border-size);
+  height: calc(100vh - ( var(--border-size) * 4));
+  width: calc(100% - var(--border-size) * 4);
+  border: var(--border-size) solid var(--border-color);
+
+  position: relative;
+}
+
+main section p {
+  text-align: center;
+  font-size: 30px;
+}
+
+theme-switcher {
+  /* Overwrite theme-switch variable values binding the global ones */
+  --switch-color: var(--border-color);
+  --slider-color: var(--bg-color);
+
+  /* Position the theme component on the bottom right corner of screen */
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+}
