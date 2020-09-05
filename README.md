@@ -1,5 +1,7 @@
 # Binary theme switcher component 
 
+[![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/theme-switcher-component)
+
 A web component that helps you implement and change two themes on a web page. See the [live demo](https://diegosanchezp.github.io/theme-switcher-component) and the code [example](https://github.com/diegosanchezp/theme-switcher-component/tree/master/demo).
 
 ## Table of Contents
