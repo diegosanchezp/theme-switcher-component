@@ -1,6 +1,6 @@
 {
   "name": "theme-switcher-component",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A web component that helps you implement and change two themes on a web page.",
   "main": "switch.js",
   "scripts": {
