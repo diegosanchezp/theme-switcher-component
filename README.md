@@ -45,7 +45,7 @@ With yarn
 /* Define the default theme variables in the root element */
 :root{ --paragraph-color: black; }
 
-/* Change the variables defined in root */
+/* Change the variables values defined in root */
 body[data-theme="dark"]{ --paragraph-color: white; }
 
 p { color: var(--paragraph-color) }
@@ -61,7 +61,7 @@ p { color: var(--paragraph-color) }
 
 Attributes | Type | Required |Description | Error 
 -----------|------|----------|------------|------
-themes | JSONArray of Strings | Yes | The two themes to define | if more than two themes defined or themes attribute undefined
+themes | JSONArray of Strings | Yes | The two themes to define | If more than two themes defined or themes attribute undefined
 verbose | bool | No | Logs to console information about the state of the component | None
 data-theme | String | No | Added after the component is rendered | None
 
