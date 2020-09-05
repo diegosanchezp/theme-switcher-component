@@ -1,0 +1,27 @@
+{
+  "name": "theme-switcher-component",
+  "version": "1.0.0",
+  "description": "A web component that helps you implement and change two themes on a web page.",
+  "main": "switch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegosanchezp/theme-switcher-component.git"
+  },
+  "keywords": [
+    "web-components",
+    "javascript",
+    "webdevelopment",
+    "frontend"
+  ],
+  "author": "Diego Sánchez",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/diegosanchezp/theme-switcher-component/issues"
+  },
+  "homepage": "https://github.com/diegosanchezp/theme-switcher-component#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}

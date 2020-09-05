@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "reload -v"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "reload": "^3.1.0"
+  },
+  "dependencies": {
+    "theme-switcher-component": "^1.0.0"
+  }
+}
