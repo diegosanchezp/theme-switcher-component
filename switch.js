@@ -3,7 +3,7 @@ import { template } from './switch-html-css.js'
 const unswitched = 0;
 const switched = 1;
 
-class ThemeSwitch extends HTMLElement {
+export class ThemeSwitch extends HTMLElement {
 
   // State machine
   machine = {
