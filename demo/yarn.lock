@@ -639,9 +639,9 @@ supervisor@~0.12.0:
   integrity sha1-3n5jNwFbKRhRwQ81OMSn8EkX7ME=
 
 theme-switcher-component@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/theme-switcher-component/-/theme-switcher-component-1.0.0.tgz#852739e1e4c267c7cad72735e3e5149ade73530f"
-  integrity sha512-RdGkt1tLBqETpIb+zd7u4fvN8PcIYDNp5a8dPORMm+2evTCPt9LOLLBKskhwfsFO9iAdNFOLnDvFuNntCk05fA==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/theme-switcher-component/-/theme-switcher-component-1.0.2.tgz#bbadd5ddab9399b337884942faf4853ba62662e4"
+  integrity sha512-bzFO6HIM0xxqa1nI/n4Jnlmbpcdt+ZzR2Anjq5nELwoVNN3TGPmTZYL3mnYFBTbMIXbkvwAu+EytQaZZvSPoJQ==
 
 timers-ext@^0.1.5, timers-ext@^0.1.7:
   version "0.1.7"
