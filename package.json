@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "description": "A web component that helps you implement and change two themes on a web page.",
   "main": "switch.js",
+  "type": "module",
+  "module": "switch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
